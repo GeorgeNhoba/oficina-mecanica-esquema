@@ -1,0 +1,18 @@
+# Sistema de Controle de Oficina Mecânica
+
+## Descrição do Projeto
+Este projeto consiste no modelo conceitual de um sistema de controle e gerenciamento de ordens de serviço para uma oficina mecânica, desenvolvido como parte de um desafio de formação em SQL.
+
+## Entidades e Relacionamentos
+- Cliente (1:N) Veículo
+- Veículo (1:N) Ordem de Serviço
+- Ordem de Serviço (N:N) Serviço
+- Ordem de Serviço (N:N) Peça
+- Ordem de Serviço (N:1) Equipe
+- Equipe (1:N) Mecânico
+
+## Ferramentas Utilizadas
+- MySQL para modelagem do diagrama.
+
+## Como Utilizar
+- O diagrama conceitual está disponível no arquivo `diagrama.pdf`.
